@@ -92,7 +92,7 @@ class GlyphViewer:
         self.interactor.Start()
 
 if __name__ == "__main__":
-    os.chdir(os.path.dirname(__file__))
+    # os.chdir(os.path.dirname(__file__))
     glyph_viewer = GlyphViewer("volume")
     glyph_viewer.start()
     print(glyph_viewer.b0)

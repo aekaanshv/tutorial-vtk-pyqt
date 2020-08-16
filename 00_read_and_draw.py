@@ -3,7 +3,7 @@ import os
 import vtk
 
 # Read the data
-os.chdir(os.path.dirname(__file__))
+# os.chdir(os.path.dirname(__file__))
 pl3d = vtk.vtkMultiBlockPLOT3DReader()
 xyx_file = "volume/combxyz.bin"
 q_file = "volume/combq.bin"
